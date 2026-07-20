@@ -1,0 +1,11 @@
+name: First GitHub action test
+on: push
+
+
+jobs:
+  karthik_first_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: message
+        run: echo "Welocme to Github actions by Karthik Patel"   
